@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wydarzenie - Promocja</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f9;
+            color: #333;
+        }
+        header {
+            background: #6200ea;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 20px auto;
+            padding: 0 20px;
+        }
+        .video {
+            text-align: center;
+            margin: 20px 0;
+        }
+        .video iframe {
+            width: 100%;
+            max-width: 800px;
+            height: 450px;
+            border: none;
+        }
+        .gallery {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 20px;
+            margin: 20px 0;
+        }
+        .gallery img {
+            width: 100%;
+            height: auto;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        footer {
+            text-align: center;
+            padding: 20px;
+            background: #6200ea;
+            color: white;
+            margin-top: 40px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Zapraszamy na wyjątkowe wydarzenie!</h1>
+        <p>Przeżyj niezapomniane chwile z nami</p>
+    </header>
+
+    <div class="container">
+        <section class="video">
+            <h2>Obejrzyj zapowiedź <br>
+                Otsochodzi TTHE GRIND deluxe - koncert premierowy</h2>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/_boMHx1gK24?si=vRRPrAazjzYR4pa5" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </section>
+
+        <section class="gallery">
+            <h2>Galeria zdjęć:</h2>
+            <img src="1.jpg" alt="Zdjęcie 1">
+            <img src="2.jpg" alt="Zdjęcie 2">
+            <img src="3.jpg" alt="Zdjęcie 3">
+            <img src="4.jpg" alt="Zdjęcie 4">
+        </section>
+    </div>
+
+    <footer>
+        <p>&copy; 2025 Wydarzenie. Wszystkie prawa zastrzeżone.</p>
+    </footer>
+</body>
+</html>
